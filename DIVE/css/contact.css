@@ -1,0 +1,52 @@
+/* デフォルトのpaddingを0にする（検証ツールで確認）*/
+th, td, input {
+  padding: 0;
+}
+
+.contact table {
+  /* セルを結合して、表の端から端まで連続した枠で表示させる */
+  border-collapse: collapse;
+}
+
+.contact tr {
+  /* 11.テーブルの行の高さは7remを指定 */
+  height: 7rem;
+}
+
+.contact th {
+  /* 12.<th>の幅に150pxを指定 */
+  width: 150px;
+  /* 15.ラベルを右揃えにする */
+  text-align: right;
+}
+
+.contact td {
+  /* 14.ラベルと入力フォームの間に10pxの余白を入れる */
+  padding-left: 10px;
+}
+
+.input_area {
+  /* 13.入力フォームの幅に480pxを指定 */
+  width: 480px;
+}
+
+.button {
+  /* 16.送信ボタンを問い合わせフォームの左右中央に配置 */
+  text-align: center;
+}
+
+.button input {
+  /* 17.送信ボタンの文字色は白を指定し、サイズを3remにする */
+  font-size: 3rem;
+  color: #fff;
+  /* 18.送信ボタンの背景色に#008B8Bを指定し、上下左右に10pxの余白を入れる */
+  background-color: #008B8B;
+  padding: 10px;
+  /* 送信ボタンの境界線を消す */
+  border: none;
+}
+
+.button input:hover {
+  /* 19.送信ボタンにマウスオーバーした際、ボタンを半透明にする */
+  opacity: 0.6;
+}
